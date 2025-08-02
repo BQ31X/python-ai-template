@@ -1,50 +1,96 @@
-# Agentic AI App Hackathon Template
+# Project Title
 
-Welcome! This repository is your starting point for the **Agentic AI App Hackathon**. It includes:
+A brief, one-sentence summary of the project's purpose.
 
-- A consistent folder structure  
-- An environment spec (`environment.yml` or `Dockerfile`)  
-- Documentation placeholders to explain your design and demo
+## 📋 Table of Contents
 
-## 📋 Submission Checklist
+- [Project Overview](#-project-overview)
+    
+- [Features](#-features)
+    
+- [Getting Started](#️-getting-started)
+    
+- [Documentation](#-documentation)
+    
+- [Contributing](#-contributing)
+    
+- [License](#-license)
+    
 
-- [ ] All code in `src/` runs without errors  
-- [ ] `ARCHITECTURE.md` contains a clear diagram sketch and explanation  
-- [ ] `EXPLANATION.md` covers planning, tool use, memory, and limitations  
-- [ ] `DEMO.md` links to a 3–5 min video with timestamped highlights  
+## 🚀 Project Overview
 
+A more detailed description of what the project does, who it's for, and why it's useful. This is a great place to put the problem statement from your design document.
 
-## 🚀 Getting Started
+## ✨ Features
 
-1. **Clone / Fork** this template.  Very Important. Fork Name MUST be the same name as the teamn name
-2. **Install dependencies**  
-   ```bash
-   # Conda
-   conda env create -f environment.yml
-   conda activate agentic-hackathon
+A bulleted list of the key features and functionalities of the project.
 
-   #—or Docker—
-   docker build -t agentic-agent .
-   docker run --rm -it agentic-agent bash
+- Feature 1
+    
+- Feature 2
+    
+- Feature 3
+    
 
-## 📂 Folder Layout
+## 🛠️ Getting Started
 
-![Folder Layout Diagram](images/folder-githb.png)
+### Prerequisites
 
+List any software or tools that need to be installed before running the project.
 
+- `uv` (for package management)
+    
+- `Docker` (for containerized deployment, if applicable)
+    
 
-## 🏅 Judging Criteria
+### Installation
 
-- **Technical Excellence **  
-  This criterion evaluates the robustness, functionality, and overall quality of the technical implementation. Judges will assess the code's efficiency, the absence of critical bugs, and the successful execution of the project's core features.
+Provide step-by-step instructions for getting the project up and running.
 
-- **Solution Architecture & Documentation **  
-  This focuses on the clarity, maintainability, and thoughtful design of the project's architecture. This includes assessing the organization and readability of the codebase, as well as the comprehensiveness and conciseness of documentation (e.g., GitHub README, inline comments) that enables others to understand and potentially reproduce or extend the solution.
+1. **Clone the repository:**
+    
+    ```
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+    
+2. **Create a virtual environment and install dependencies:**
+    
+    ```
+    uv venv
+    source .venv/bin/activate
+    uv sync
+    ```
+    
+3. **Set up environment variables:** _Copy the example file and fill in your secrets._
+    
+    ```
+    cp .env.example .env
+    # Then open .env and add your API keys
+    ```
+    
+4. **Run the application:** _Provide the command to start the main application._
+    
+    ```
+    uv run python src/app.py
+    ```
+    
 
-- **Innovative Gemini Integration **  
-  This criterion specifically assesses how effectively and creatively the Google Gemini API has been incorporated into the solution. Judges will look for novel applications, efficient use of Gemini's capabilities, and the impact it has on the project's functionality or user experience. You are welcome to use additional Google products.
+## 📖 Documentation
 
-- **Societal Impact & Novelty **  
-  This evaluates the project's potential to address a meaningful problem, contribute positively to society, or offer a genuinely innovative and unique solution. Judges will consider the originality of the idea, its potential real‑world applicability, and its ability to solve a challenge in a new or impactful way.
+Link to other important project files and documentation.
 
+- [Architecture Diagram](docs/ARCHITECTURE.md)
+    
+- [Testing & Evaluation Plan](docs/TEST_PLAN.md "null")
+    
+- [Design Document](docs/DESIGN.md "null")
+    
 
+## 🙏 Contributing
+
+Instructions for anyone who wants to contribute to the project.
+
+## 📄 License
+
+Specify the license under which the project is distributed. _This project is copyrighted and all rights are reserved._

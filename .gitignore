@@ -2,31 +2,37 @@
 .env
 *.env
 
-# Python cache files
+# Python cache files and compiled bytecode
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Mac system files
-.DS_Store
-
-# Conda environment folders (if any ever exist locally)
+# Virtual environment folders
 env/
+.venv/
 .conda/
 conda-meta/
-
-# VSCode / editor folders (optional)
-.vscode/
-
-# Log files and temp output
-*.log
-*.tmp
-
-# Compiled bytecode
+venv/
 *.so
 *.dll
 *.dylib
 
-#working design documents not ready for public consumption
-teamworkdivision.md
+# Mac system files
+.DS_Store
+
+# IDE and editor folders (e.g. VSCode)
+.vscode/
+
+# Log files and temporary output
+*.log
+*.tmp
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.idea/
+
+# Working design documents (for local development only)
+WorkNotes.md
 PromptingIdeas.md
